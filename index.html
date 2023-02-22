@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,21 @@
 </head>
 
 <body>
-    <h1>My page</h1>
-    <form>
-        <input type="text"/>
-        <button>Push me</button>
-    </form>
-    <script src="./src/index.js"></script>
+    <label>
+        Число
+        <input type="number" data-value />
+    </label>
+
+    <button type="button" data-add>Прибавить</button>
+    <button type="button" data-reset>Oчистить</button>
+
+    <p class="js-output">Сумма: <span>0</span></p>
+
+    <!-- <script src="./src/index.js"></script> -->
+    <!-- <script src="./src/switch.js"></script> -->
+    <!-- <script src="./src/02-for-loop.js"></script> -->
+    <!-- <script src="./src/03-purchase.js"></script> -->
+    <script src="./src/05-dom.js"></script>
 </body>
-</html> 
+
+</html>
